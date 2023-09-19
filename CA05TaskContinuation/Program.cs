@@ -29,7 +29,7 @@ namespace CA05TaskContinuation
             var count = 0;
             for (int i = lowerBound; i < upperBound; i++)
             {
-                var j = lowerBound;
+                var j = 2;
                 var isPrime = true;
                 while(j <= (int)Math.Sqrt(i))
                 {
